@@ -8,6 +8,7 @@ h1 {
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0px 0px 10px #aaa;
+    background-color: #000000;
 }
 
 #display {
@@ -17,16 +18,21 @@ h1 {
     text-align: right;
 }
 
-#buttons {
+.buttons {
     display: flex;
     flex-wrap: wrap;
 }
 
-#buttons button {
+.buttons button {
     width: 25%;
     padding: 20px 0;
     font-size: 15px;
     margin-bottom: 10px;
     cursor: pointer;
     flex: 1 0 25%;
+    background-color: #bebebe;
+}
+
+#operator {
+    background-color: #FF9500;
 }
